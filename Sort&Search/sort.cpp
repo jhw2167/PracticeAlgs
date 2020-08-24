@@ -76,4 +76,22 @@ namespace sort {
 			nums[i] = sum;
 		}
 	}
+
+
+	/*
+		Quick Sort - used tentatively for sorting "large"
+		arrays but frequently in hybrid mechanisms
+		Best case - nlog(n) (good)
+		Average - nlog(n) (good)
+		Worst - n^2 (bad)
+		Memory use - log(n) (decent)
+		Stable - no 
+		Uses a "partitioning" method
+	*/
+
+	std::vector<int>& quickSort(std::vector<int> &nums, int lo, int hi)
+	{
+		
+		return nums;
+	}
 }

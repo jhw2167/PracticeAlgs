@@ -16,6 +16,10 @@
 #include <vector>
 
 
+//Algorithm includes
+#include <algorithm>
+
+
 //using statements
 using std::cout;
 using std::cin;
