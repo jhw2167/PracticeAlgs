@@ -22,7 +22,7 @@ int main(int c, char* v[]) {
 	//sort::beadSort(sortable, len);
 
 	//Call quickSort()
-	sort::quickSort(sortable);
+	sort::quickSort(sortable, 0, len-1);
 
 	cout << "\n\nFinal array: " << endl;
 
